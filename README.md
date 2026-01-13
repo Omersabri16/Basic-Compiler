@@ -1,4 +1,4 @@
-Dead Code Elimination using Lex & Yacc
+📘 Dead Code Elimination using Lex & Yacc
 
 This project implements a simple compiler front-end that performs dead code elimination on an intermediate language (IL) using Lex and Yacc.
 The program reads assignment statements, parses expressions, identifies live variables, and removes all statements that do not contribute to the final live set.
@@ -96,20 +96,3 @@ e=5;
 p=0;
 r=e*p;
 s=a;
-
-📂 Project Structure
-├── deadcode.l        # Lex rules (tokenizer)
-├── deadcode.y        # Yacc grammar and DCE logic
-├── Makefile          # Build automation
-├── input.txt         # Sample IL file
-└── README.md         # Project documentation
-
-📚 Technologies Used
-
-Lex (Flex) – lexical analysis
-
-Yacc (Bison) – syntax parsing
-
-C++ – dead code elimination logic
-
-Make – build automation
